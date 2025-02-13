@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What to Watch</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            color: #333;
+        }
+        h1 {
+            color: pink;
+            font-size: 60px;
+        }
+        .anime-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .anime-item {
+            margin: 10px;
+            text-align: center;
+        }
+        .anime-item img {
+            width: 200px;
+            height: 300px;
+            border-radius: 8px;
+        }
+        label {
+            font-size: 18px;
+            display: block;
+            margin: 10px 0;
+        }
+        .custom-button {
+            background-color: pink;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: 0.3s;
+        }
+        .custom-button:hover {
+            background-color: hotpink;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>What Should We Watch?</h1>
+    </header>
+
+    <form action="chris4.html" method="get">
+        <div class="anime-container">
+            <div class="anime-item">
+                <input type="checkbox" id="jjk" name="anime[]" value="Jujutsu Kaisen">
+                <label for="jjk">Jujutsu Kaisen</label><br>
+                <img src="https://i.redd.it/o4kqzwh6ig561.jpg" alt="Jujutsu Kaisen">
+            </div>
+
+            <div class="anime-item">
+                <input type="checkbox" id="blueLock" name="anime[]" value="Blue Lock">
+                <label for="blueLock">Blue Lock</label><br>
+                <img src="https://i.pinimg.com/originals/ea/b8/6f/eab86fd5b374f03c2c12388d03df0d6e.gif" alt="Blue Lock">
+            </div>
+
+            <div class="anime-item">
+                <input type="checkbox" id="deathNote" name="anime[]" value="Death Note">
+                <label for="deathNote">Death Note</label><br>
+                <img src="https://i0.wp.com/doublesama.com/wp-content/uploads/2018/01/death-note-dvd-cover-front2.jpg?resize=640%2C904" alt="Death Note">
+            </div>
+
+            <div class="anime-item">
+                <input type="checkbox" id="danDaDan" name="anime[]" value="DanDaDan">
+                <label for="danDaDan">Dan Da Dan</label><br>
+                <img src="https://a.storyblok.com/f/178900/960x1358/a0eae78b18/dan-da-dan-enkv.jpg/m/filters:quality(95)format(webp)" alt="DanDaDan">
+            </div>
+
+            <div class="anime-item">
+                <input type="checkbox" id="onePunchMan" name="anime[]" value="One Punch Man">
+                <label for="onePunchMan">One Punch Man</label><br>
+                <img src="https://m.media-amazon.com/images/M/MV5BNzMwOGQ5MWItNzE3My00ZDYyLTk4NzAtZWIyYWI0NTZhYzY0XkEyXkFqcGc@._V1_.jpg" alt="One Punch Man">
+            </div>
+
+            <div class="anime-item">
+                <input type="checkbox" id="erased" name="anime[]" value="Erased">
+                <label for="erased">Erased</label><br>
+                <img src="https://m.media-amazon.com/images/M/MV5BZWQ2YmI5NWMtZTY2Mi00MGUxLWFhMmEtYjVjZjMwOTNkOThjXkEyXkFqcGc@._V1_.jpg" alt="Erased">
+            </div>
+
+            <div class="anime-item">
+                <input type="checkbox" id="totoro" name="anime[]" value="My Neighbor Totoro">
+                <label for="totoro">My Neighbor Totoro</label><br>
+                <img src="https://m.media-amazon.com/images/I/71yGT0Y8A5L.jpg" alt="My Neighbor Totoro">
+            </div>
+
+            <div class="anime-item">
+                <input type="checkbox" id="porcoRosso" name="anime[]" value="Porco Rosso">
+                <label for="porcoRosso">Porco Rosso</label><br>
+                <img src="https://gcs.tripi.vn/public-tripi/tripi-feed/img/476922KCf/anh-mo-ta.png" alt="Porco Rosso">
+            </div>
+
+            <div class="anime-item">
+                <input type="checkbox" id="spiritedAway" name="anime[]" value="Spirited Away">
+                <label for="spiritedAway">Spirited Away</label><br>
+                <img src="https://ogden_images.s3.amazonaws.com/www.lockhaven.com/images/2020/09/23170417/Spirited-poster-555x840.jpg" alt="Spirited Away">
+            </div>
+        </div>
+
+        <button type="submit" class="custom-button">Submit</button>
+    </form>
+
+</body>
+</html>

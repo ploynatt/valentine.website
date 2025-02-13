@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Availability</title>
+    <style>
+                h1 {
+            text-align: center;
+            color: pink;
+            font-size: 60px;
+        }
+        .form-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .custom-button {
+            background-color: pink;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: 0.3s;
+        }
+        .custom-button:hover {
+            background-color: hotpink;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Are you free on...?</h1>
+    </header>
+
+    <div class="form-container">
+        <form action="chris3.html" method="get">
+            <label for="date">Select a date:</label><br>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <label for="time">Select a time:</label><br>
+            <input type="time" id="time" name="time" required><br><br>
+
+            <button type="submit" class="custom-button">Check Availability</button>
+        </form>
+    </div>
+
+</body>
+</html>
